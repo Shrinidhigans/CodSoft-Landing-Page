@@ -1,0 +1,40 @@
+.product{
+    height: 100%;
+    width: 65%;
+    position: relative;
+    padding: 140px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+#product::-webkit-scrollbar{
+    display: none;
+}
+.element{
+    height: 350px;
+    width: 280px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 5px 10px rgb(210, 160, 94);
+    border-radius: 10px;
+    display: inline-block;
+}
+.element img{
+    height: 70%;
+    width: 100%;
+    top: 7%;
+    object-fit: cover;
+    position: absolute;
+}
+.element h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(255, 235, 212);
+    padding: 15px 30px;
+    border-radius: 6px;
+}
+
